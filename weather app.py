@@ -2,7 +2,7 @@ import requests
 
 city=input("enter city name ->")
 
-api_key = "7eb8a15bd3714fae93a53908262406"
+api_key = "my api key"
 
 url = f"http://api.weatherapi.com/v1/current.json?key={api_key}&q={city}"
 
